@@ -13,10 +13,10 @@ export class ExperiencesComponent {
   public arrayExperiences = signal<IExperiences[]>([
     {
       summary: {
-        strong: 'Desenvolvedor Full-Stack',
-        p: 'Freelancer | Dez/2023 - Atualmente',
+        strong: 'Desenvolvedor FullStack',
+        p: 'Estágio | Dez/2023 - Atualmente',
       },
-      text: '<p></p>',
+      text: '<p>Atualmente, estou colaborando com uma equipe para realizar a manutenção e aprimoramento do sistema App Cidades. Minha principal área de atuação é no backend, onde utilizo Java e Spring, e no frontend, trabalho com Angular, Bootstrap, HTML e SCSS. Além disso, faço uso de ferramentas como Git para controle de versão e Kanban para gestão de tarefas.</p>',
     },
     {
       summary: {
@@ -30,7 +30,7 @@ export class ExperiencesComponent {
         strong: 'Desenvolvedor Django',
         p: 'IFMG | Mai/2022 - Jan/2023',
       },
-      text: '<p>Desenvolvi um sistema em Django para auxiliar no gerenciamento de recursos do PNAE e fornecedores para o refeitório estudantil do IFMG Campus Bambuí.</p>',
+      text: '<p>Desenvolvimento de um sistema web utilizando Python, Django, Bootstrap, HTML e CSS para auxiliar no gerenciamento de recursos do Programa Nacional de Alimentação Escolar (PNAE) e fornecedores para o refeitório estudantil do IFMG Campus Bambuí.</p>',
     },
   ]);
 }

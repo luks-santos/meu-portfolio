@@ -1,5 +1,7 @@
 <div class="container">
-   <h2>Projetos desenvolvidos</h2>
+  @if (arrayProjects().length > 0) {
+    <h2>Projetos desenvolvidos</h2>
+  }
  
    <ul>
      @for(item of arrayProjects(); track item){
