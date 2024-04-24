@@ -8,4 +8,4 @@ Portfolio realizado no curso de Angular, com minhas experiências e projetos pes
 
 Adicione ao seu projeto: ng add angular-cli-ghpages
 
-Faça o deploy: ng deploy --base-href https://SEU_PERFIL_GITHUB.github.io/SEU_REPO_GITHUB/browser
+Faça o deploy: ng deploy --base-href https://SEU_PERFIL_GITHUB.github.io/SEU_REPO_GITHUB/
